@@ -24,3 +24,34 @@ End-to-end data pipeline project simulating an Azure cloud environment. Built wi
 - How many alerts or data quality issues occur monthly?
 
 ## 📁 Project Structure
+
+agile-data-pipeline-azure/
+├── data/
+│   ├── raw/
+│   │   ├── customers.csv
+│   │   ├── sales.csv
+│   │   ├── inventory.csv
+│   └── processed/
+│       ├── customers_clean.csv
+│       └── sales_clean.csv
+├── pipeline/
+│   ├── extract.py
+│   ├── transform.py
+│   └── load.py
+├── monitor/
+│   ├── logger.py
+│   └── alerting.py
+├── reports/
+│   ├── summary_report.pdf
+│   └── dashboard.pbix
+├── agile_backlog.md
+├── README.md
+└── .gitignore
+
+## ✅ Deliverables
+
+- Cleaned, documented datasets
+- Fully automated ETL pipeline scripts
+- Error logs and alerting simulation
+- Dashboard or KPI summary report
+- Agile sprint documentation
